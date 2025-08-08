@@ -46,3 +46,7 @@ class Body():
                 dx = other.x - self.x  # distance in x direction.
                 dy = other.y - self.y  # distance in x direction.
                 r = math.sqrt(dx ** 2 + dy ** 2) # to calculate the eucledian distance.
+                if r > 0:
+                    f = G * self.mass * other.mass /(r*2)
+        
+
