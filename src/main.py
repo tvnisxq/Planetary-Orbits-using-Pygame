@@ -1,10 +1,9 @@
-
-#? Importing necessary modules.
+# Importing necessary modules.
 import math
 import pygame
 
 pygame.init()
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = 1910, 1010
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Planetary Simulation")
 clock = pygame.time.Clock()
@@ -83,16 +82,16 @@ class Body():
 
 bodies = [
     # Sun -> (1.989e30 kg, 8 pixel radius (not used in calculations, just visual))
-    Body(0, 0, 0, 0, 1.9899e30, 8, (255, 255, 0)),
-    Body(5.79e10, 0, 0, 47360, 3.301e23, 2, (169, 169, 169)),  # Mercury
-    Body(1.082e11, 0, 0, 35020, 4.867e24, 3, (255, 165, 0)),  # Venus
-    Body(1.496e11, 0, 0, 29780, 5.972e24, 4, (0, 100, 255)),  # Earth
-    Body(2.79e11, 0, 0, 24077, 6.39e23, 3, (255, 100, 0)),  # Mars (fixed magnitude formatting)
-    Body(7.786e11, 0, 0, 13070, 1.898e27, 6, (200, 150, 100)),  # Jupiter
-    Body(1.432e12, 0, 0, 9680, 5.683e26, 5, (250, 200, 100)),  # Saturn
-    Body(2.867e12, 0, 0, 6810, 8.681e25, 4, (100, 200, 255)),  # Uranus
-    Body(4.515e12, 0, 0, 5430, 1.024e26, 4, (0, 0, 255)),  # Neptune
-    Body(5.906e12, 0, 0, 4670, 1.309e22, 2, (150, 100, 50)),  # Pluto
+    Body(0, 0, 0, 0, 1.9899e30, 10, (255, 255, 0)),
+    Body(5.79e10, 0, 0, 47360, 3.301e23, 3, (169, 169, 169)),  # Mercury
+    Body(1.082e11, 0, 0, 35020, 4.867e24, 4, (255, 165, 0)),  # Venus
+    Body(1.496e11, 0, 0, 29780, 5.972e24, 5, (0, 100, 255)),  # Earth
+    Body(2.79e11, 0, 0, 24077, 6.39e23, 4, (255, 100, 0)),  # Mars (fixed magnitude formatting)
+    Body(7.786e11, 0, 0, 13070, 1.898e27, 7, (200, 150, 100)),  # Jupiter
+    Body(1.432e12, 0, 0, 9680, 5.683e26, 6, (250, 200, 100)),  # Saturn
+    Body(2.867e12, 0, 0, 6810, 8.681e25, 5, (100, 200, 255)),  # Uranus
+    Body(4.515e12, 0, 0, 5430, 1.024e26, 5, (0, 0, 255)),  # Neptune
+    Body(5.906e12, 0, 0, 4670, 1.309e22, 3, (150, 100, 50)),  # Pluto
 ]
 
 running = True
