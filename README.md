@@ -1,7 +1,5 @@
 # Planetary Orbits Using Pygame
-<p align="center">
-  <img src="visuals/demo.gif" alt="Demo - Interactive planetary simulation showing gravitational orbits" width="900" />
-</p>
+
 
 A beautiful simulation of planetary orbital motion built with Python and Pygame. This project demonstrates gravitational interactions between celestial bodies using real physics principles.
 
