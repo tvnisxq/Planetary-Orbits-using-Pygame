@@ -1,11 +1,7 @@
 # Planetary Orbits Using Pygame
 
-![demo](https://github.com/user-attachments/assets/ba767d7b-2386-4a20-abfc-ef877dfe9216)
 
-
-
-
-
+https://github.com/user-attachments/assets/faf058ff-403c-4cee-9d7b-d2b3c283d5e8
 
 
 
