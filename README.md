@@ -37,7 +37,6 @@ pip install pygame
 ```
 
 ## Usage
-
 Run the simulation using:
 ```sh
 python src/main.py
